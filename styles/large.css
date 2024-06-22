@@ -1,0 +1,402 @@
+@media (min-width: 640px){
+    .brand-name {
+        text-align: left;
+        font-size: 1.5rem;
+        color: white;
+        margin-top: 43px;
+        width: max-content;
+    }
+    #brand-details img {
+        width: 62px;
+        height: 60px;
+        border-radius: 15px;
+        margin-top: 40px;
+    }
+    #brand-details {
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+
+    
+    .headline {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: justify;
+    }
+   
+    main {
+        margin-left: .5%;
+    }
+      
+    #banner {
+        background-color: #262626;
+        color: #ff6f00;
+        text-align: center;
+    }
+       
+    
+    #title_desc{
+        font-size: 13px;
+    }
+    
+    #currentdate {
+        grid-column: 1/4;
+        grid-row: 3;
+        display: flex;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-weight: bold; 
+        margin-top: 30px;
+    }
+    #donate{
+        border: 2px solid rgb(255, 169, 169);
+        text-align: center;
+        padding: 30px;
+        position:absolute;
+        border-radius: 5px;
+        background-color: rgb(255, 231, 244);
+        margin-left: 2%;
+        margin-right: 15%;
+        transition: .5s;
+        opacity: .9;
+        transform: scale(1.1);
+        box-shadow: 10px 5px 15px #ffc1c1;
+    }
+    #donate a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    #donate:hover{
+        background-color: #ffa200;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+   
+    #int {
+        display: none;
+    }
+    .social-links {
+        display: flex;
+        grid-column: 3;
+        grid-row: 1;
+        gap: 40px;       
+        height: 12px;
+    }
+    #adverting {
+        display: flex;
+        gap: 400px;
+    }
+    #try{
+        background-color: #ff6f00;
+        width: 300px;
+    }
+    #try img{
+        width: 200px;
+        height: 128px;
+        border-radius: 0px;
+    }
+    #try marquee {
+        background-color: #262626;
+    }
+    #notry {
+        width: 300px;
+    }
+    #notry img {
+        width: 200px;
+        height: 128px;
+    }
+    .social-links img {
+        width: 32px;
+        height: 30px;
+        border-radius: 12px;
+        margin-top: 40px;
+    }
+   
+    nav {
+        grid-column: 2;
+        grid-row: 2;
+        justify-content: center;
+        padding: 20px;
+        margin-bottom: 10px;
+        
+    }
+    nav ul {
+        list-style-type: none;
+    }
+    nav a {
+        text-align: center;
+        color: #ffffff;
+        text-decoration: #2b1c10;
+        transition: .5s;
+        opacity: .9;
+        transform: scale(1.1);
+        box-shadow: 10px 5px 15px #44ff00;
+        border-radius: 15px;
+    }
+    
+    nav a:hover{
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        border-radius: 50px;
+        text-decoration: none;
+    }
+    
+    h1 {
+        font-size: 1rem;
+        padding: 1px;
+        margin-top: 30px;
+    }
+       
+    .navigation{
+        display: flex;
+        gap: 20px;
+    }
+    .navigation li {
+        display: block; 
+    
+    }
+    
+    .navigation a {
+        text-align: center;
+    }
+    
+    
+    nav a:hover{
+        border: 1px solid rgb(45, 53, 60);
+        color: rgb(242, 17, 17);
+        padding: 2px;
+        border-radius: 5px; 
+    }
+    
+    #menu {
+        display: none;
+    }
+
+
+    /**  MAIN   ****/
+    #care {
+        padding: 20px;
+        text-align: center;
+        font-family: tapestry;
+        border-bottom: 20px solid rgb(255, 0, 0);
+        border-right: 5px solid rgb(255, 0, 0);
+        font-size: 2rem;
+        border-top: 0px;
+        
+    }#care p{
+        background-color: #ff6f00;
+        border-radius: 1rex 10rex;
+        width: fit-content;
+    }
+    #care h3 {
+        font-size: 2.5rem;
+        padding: 5px;
+        margin-top: 7.5%;
+        
+    }
+    #care-banner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #262626;
+        gap: 20px;
+        margin: 5%;
+    }
+    #care{
+        grid-column: 1/2;
+        background-color: rgb(216, 237, 216);
+        height: 20cqmax;
+        margin-top: 0%;
+        margin-right: 0%;
+        border-bottom-right-radius: 80dvb;
+    }
+    #aims-banner {
+        grid-column: 2;
+        grid-row: 3;
+        border-bottom-left-radius: 80dvb;
+    }
+    #call-us {
+        display: flex;
+        grid-column: 1/4;
+        grid-row: 4;
+        margin-left: 800px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius:120px 15px;
+    }
+    #care-banner-2{
+        margin-top: 400px;
+        background-color: #ec1df0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        
+    }
+    #sign-up{
+        grid-column: 1;
+        margin-left: 40px;
+        margin-right: 40px;
+        border-radius: 12lvb;
+    }
+    #sign-up a{
+        padding: 5px;
+        border: 1px solid white;
+        background-color: #ffa200;
+        font-weight: bold;
+    }
+    #sign-up a:hover {
+        color: black;
+        font-size: 1.5rem;
+        background-color: rgb(255, 255, 255);
+    }
+    #sign-up img {
+        border-radius: 12px;    
+    }
+    #selfless-train {
+        grid-column: 2;
+        grid-row: 1;
+        text-align: justify;
+        font-size: 2rem;
+        margin-top: 100px;
+    }
+    #vision-banner{
+        grid-column: 3;
+        border: 1px solid black;
+        margin: 40px;
+        border-radius: 30cqmax;
+    }
+    #vision-banner h4{
+       margin-left: 20%;
+       margin-right: 20%;
+    }
+    #vision-banner p{
+        font-size: 1.2rem;
+        margin-top: 30px;
+        padding: 10px;
+    }
+    #call-us a {
+        color: black;
+        text-align-last: center;
+        font-style: oblique;
+        font-weight: 1000;
+        font-size: 1.5rem;
+        margin-left: 40%;
+    }
+    #call-us a:hover{
+        color: #44ff00;
+        font-size: 2.0rem;
+        font-style: inherit;
+    }
+
+    #welcome_banner {
+        color: white;
+        text-align: center;
+    }
+    .hidden-pops{
+        position: relative;
+    }
+    h4{
+        font-size: 28px;
+        background-color: #c2c1c1;
+        padding: 2px;
+    }
+    #vision-banner{
+        margin: 10px;
+    }
+   
+    #vision-banner p {
+        text-align: justify;
+    }
+   
+    .footer_logo {
+        margin: 0;
+       
+    }
+    #footer-nav img  {
+        margin-left: -42px;
+    
+    }
+    #grid {
+        display: none;
+    }
+    .slides, .mainSlides {
+        width: 100%;
+    }
+    .mainSlides {
+        height: 540px;
+    }
+    .slides-hidden {
+        display: none;
+    }
+
+    #the-home {
+        width: 700px;
+        border: 1px solid rgb(127, 120, 120);
+        margin-left: 20%;
+        border-radius: 12px 120px;
+        margin-top: 400px;
+        margin-bottom: 200px;
+    }
+    .learn-more {
+        display: block;
+        margin-top: 40px;
+        background-color: #ffffff;
+    }
+    .learn-more a{
+        color: black;
+    }
+    .learn-more:hover{
+        background-color: black;
+        color: white;
+    }
+
+    /** FOOTER ***/
+    #footer_head h3 {
+        font-size: 12px;
+       
+    }
+    #footer_head {
+        flex: 2;
+        display: flex;
+       
+    }
+    
+    #footer-nav, a:hover {
+        color: rgb(164, 164, 164);
+    }
+    
+    #footer_row2 {
+        grid-row: 2;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        border-top: 1.5px solid rgb(71, 71, 71);
+        text-align: center;
+        padding-top: 2px;
+        padding-bottom: 5px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-size: 12px;
+    }
+    #contact-info {
+        display: none;
+    }
+    #google-map {
+        display: none;
+    }
+    #footing_nav {
+    grid-column:  1;
+    color: black;
+    background-color: rgb(239, 222, 222); 
+    border-radius: 15px; 
+    column-width: 248px; 
+    }
+    #footer_row2 .copyright {
+        margin-left: -12px;
+        font-size: 12px;
+    }
+    .course_name{
+        display: none;
+    }
+    #no_modifies {
+        display: block;
+    }
+}
